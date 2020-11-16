@@ -18,8 +18,11 @@ body {
 }
 
 .instagram-wrapper {
+    /* DISPLAY FLEX VIRA UM FLEX-CONTAINER IN LINE */
     display: flex;
+    /* ALIGN ITEMS ALINHAMENTO VERTICAL DOS ELEMENTOS */
     align-items: center;
+
     justify-content: start;
     width: 60%;
     height: 100vh;
@@ -38,8 +41,9 @@ body {
 
 .instagram-continue {
     display: flex;
-    align-items: center; /* horizontal */
-    justify-content: space-around; /* vertical */
+    align-items: center; 
+    justify-content: space-around; 
+    /* FLEX DIRECTION: column, column-reverse, row, row-reverse, initial, inherit, unset*/
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -69,6 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    /* NÃO DEIXA PASSAR DA MARGEM */
     overflow: hidden;
 }
 
@@ -77,14 +82,14 @@ body {
 }
 
 .instagram-login {
-    background-color: #0095f6;
+    background-color: #0a67a5;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
 }
 
 .instagram-logout {
-    color: #0095f6;
+    color: #0a67a5;
     margin-top: 1rem;
 }
 
@@ -108,6 +113,7 @@ body {
 .download {
     display: flex;
     width: 100%;
+    /* EVENLY MESMO ESPAÇO DOS LADOS E NO MEIO*/
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;

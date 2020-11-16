@@ -1,7 +1,7 @@
 # Interface de Login do Instagram
 Recriando a página inicial do Instagram utilizando HTML e CSS.
 
-[![INSTAGRAM](https://i.imgur.com/rqn9yJc.jpg "SNAKE GAME")](https://macindex.github.io/instagram-layout/)
+(https://macindex.github.io/instagram-layout/)
 
 
 ------------
